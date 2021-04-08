@@ -1,0 +1,21 @@
+.aside-left {
+	a {
+		&.user {
+			svg {
+				transform: rotate(180deg);
+			}
+			span {
+				margin-top: 20px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.aside__bottom {
+		ul {
+			li {
+				margin-bottom: 50px;
+			}
+
+		}
+	}
+}

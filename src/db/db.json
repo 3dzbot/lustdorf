@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "course_type": "test1",
+      "link": "https://www.google.com/",
+      "courses_name": "",
+      "promo": "",
+      "photo": "./img/courses/10.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "2Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "4 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test2",
+      "link": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+      "courses_name": "",
+      "promo": "",
+      "photo": "./img/courses/02.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "3Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test3",
+      "link": "#",
+      "courses_name": "",
+      "promo": "",
+      "photo": "./img/courses/03.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "22Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "5 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test4",
+      "link": "https://www.youtube.com/",
+      "courses_name": "",
+      "promo": "",
+      "photo": "./img/courses/04.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "23Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test5",
+      "link": "#",
+      "courses_name": "",
+      "promo": "НАБОР НА АПРЕЛЬ 2022 г.",
+      "photo": "./img/courses/05.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "24Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test6",
+      "link": "#",
+      "courses_name": "",
+      "promo": "НАБОР НА АПРЕЛЬ 2021 г.",
+      "photo": "./img/courses/06.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "25Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test7",
+      "link": "#",
+      "courses_name": "",
+      "promo": "НАБОР НА АПРЕЛЬ 2022 г.",
+      "photo": "./img/courses/07.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "26Бюти курсы для девушек (продвинутый)",
+      "price_old": "",
+      "price_current": "8 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test1",
+      "link": "#",
+      "courses_name": "",
+      "promo": "НАБОР НА АПРЕЛЬ 2023 г.",
+      "photo": "./img/courses/08.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "21Бюти курсы для девушек (продвинутый)",
+      "price_old": "18 750",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test1",
+      "link": "#",
+      "courses_name": "",
+      "promo": "НАБОР НА АПРЕЛЬ 2023 г.",
+      "photo": "./img/courses/08.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "21Бюти курсы для девушек (продвинутый)",
+      "price_old": "18 750",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    },
+    {
+      "course_type": "test1",
+      "link": "#",
+      "courses_name": "",
+      "promo": "НАБОР НА АПРЕЛЬ 2023 г.",
+      "photo": "./img/courses/08.jpg",
+      "subtitle": "Длительность: 6 мес",
+      "title": "21Бюти курсы для девушек (продвинутый)",
+      "price_old": "18 750",
+      "price_current": "13 750",
+      "bottom_text": "Первое занятие бесплатное"
+    }
+  ]
+}

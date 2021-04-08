@@ -1,0 +1,43 @@
+.aside-left, .aside-right {
+	width: 70px;
+	background: #fff;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	bottom: 0;
+	a {
+		&:hover {
+			color: $blue;
+		}
+	}
+	.aside__bottom {
+		ul {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+.aside__flex {
+	transform: rotate(180deg);
+	flex-direction: row-reverse;
+	padding: 20px 0;
+}
+.aside-left {
+	left: 0;
+}
+.aside-right {
+	right: 0;
+}
+.aside__flex {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	writing-mode: vertical-lr;
+}
+@media (max-width: 1100px) {
+	.aside-left, .aside-right {
+		display: none;
+	}
+}

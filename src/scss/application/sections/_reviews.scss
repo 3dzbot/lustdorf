@@ -1,0 +1,162 @@
+.review {
+	.section-title {
+		text-align: center;
+	}
+	.btn-add-review {
+		margin-left: 30px;
+		border-radius: 35px;
+	}
+}
+.review__row {
+	display: flex;
+	//flex-wrap: wrap;
+	//margin: 0 -30px;
+	width: auto;
+}
+.review__column {
+	width: 33.333%;
+	//padding: 0 30px;
+	margin-bottom: 60px;
+}
+.review__item {
+	background: #fff;
+	box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08);
+}
+.review__header {
+	display: flex;
+	width: 100%;
+	position: relative;
+	&:before {
+		content: '';
+		padding-top: 80%;
+		z-index: -1;
+	}
+}
+.review__img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.review__bottom {
+	padding: 30px 45px;
+}
+.review__rating {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.review__text {
+	font-size: 16px;
+	line-height: 26px;
+	a {
+		color: $blue;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+}
+.review__more {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.simple-rating {
+	position: relative;
+	font-size: 28px;
+	display: inline-block;
+	margin-right: 10px;
+	&:before {
+		display: block;
+		content: "★★★★★";
+	}
+}
+.simple-rating__items {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.simple-rating__item {
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	opacity: 0;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	&:checked, &:checked ~ .simple-rating__label {
+		color: #F7981C;
+	}
+}
+.simple-rating__label {
+	flex: 0 0 20%;
+	height: 100%;
+	color: #cfcfcf;
+	&:before {
+		content: "★";
+		display: block;
+	}
+}
+
+@media (max-width: 1268px) {
+	.review__row {
+		//margin: 0 -15px;
+	}
+	.review__column {
+		//padding: 0 15px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 1168px) {
+	.review__row {
+		//margin: 0 -30px;
+	}
+	.review__column {
+		width: 50%;
+		//padding: 0 30px;
+		margin-bottom: 60px;
+	}
+}
+@media (max-width: 767px) {
+	.review {
+		.review__more {
+			flex-direction: column;
+			margin-top: 40px;
+		}
+		.btn-load-more {
+			margin: 20px auto;
+		}
+	}
+	.review__row {
+		margin: 0;
+		width: 100%;
+		flex-wrap: nowrap;
+	}
+	.review__column {
+		//padding: 0 15px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 700px) {
+	.review__row {
+		margin: 0;
+	}
+	.review__column {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 40px;
+	}
+	.courses__column-item {
+		box-shadow: none;
+	}
+}

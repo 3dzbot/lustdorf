@@ -1,0 +1,20 @@
+$blue: #1486FF;
+$red: #D00000;
+$link: #200E32;
+$silver: #bdbdbd;
+* {
+	transition: filter .2s linear;
+}
+
+:root {
+	--hover-brightness: 1.1;
+}
+
+
+svg path{
+	transition: fill .2s linear;
+}
+a {
+	transition: color .2s linear;
+	color: $link;
+}

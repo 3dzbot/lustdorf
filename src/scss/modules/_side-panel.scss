@@ -1,0 +1,38 @@
+.side-panel{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    transition: transform .3s;
+    z-index: 1001;
+    &.side-panel-left{
+        left: 0;
+        transform: translate(-100%, 0);
+    }
+    &.side-panel-right{
+        right: 0;
+        transform: translate(100%, 0);
+    }
+    &.active{
+        transform: translate(0, 0);
+    }
+}
+
+.side-panel-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity, visibility;
+    transition-duration: 0.3s;
+    z-index: 1000;
+    &.active{
+        visibility: visible;
+        opacity: 1;
+    }
+}
